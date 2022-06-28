@@ -1,5 +1,5 @@
 import './App.css'
-import { ElementOne, ElementThree, ElementTwo } from './components/elements'
+import { Boxes, ElementOne, ElementThree, ElementTwo } from './components/elements'
 import { Box, Typography, Button } from "@mui/material";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
         <ElementOne />
         <ElementTwo />
         <ElementThree />
+        <Boxes/>
       
     </div>
   )

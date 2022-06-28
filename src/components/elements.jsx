@@ -1,4 +1,5 @@
 import { Box, Typography, Button } from "@mui/material";
+import { Card } from "./card.styled";
 
 export const ElementOne = () => {
     const style = {
@@ -68,4 +69,10 @@ export const ElementThree = () => {
     )
 }
 
-
+export const Boxes = ()=>{
+    return (
+        <Card>
+            mm
+        </Card>
+    )
+}
